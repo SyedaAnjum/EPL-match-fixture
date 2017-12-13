@@ -5,12 +5,9 @@ body {
     padding: 0;
     margin: 0;
     background-color: #F5F5F5;
-     background-image: url(wallpaper.jpg);
+    background-image: url(wallpaper.jpg);
     }
     
-h2{
-  font-size: 4vmin;
-}
 
 .notFound {
     padding: 8%;
@@ -40,21 +37,44 @@ h2{
 
 
 
-@media (max-width: 600px) {
-    .footer {
-        padding: 35px;
+@media screen and (max-width : 656px){
+
+    .toHide {
+        display: none ;
     }
-    .footer .footer-motto {
-        font-size: 18px;
+
+    table {
+
+        font-size: 0.9em;
     }
-    .footer .footer-name {
-        font-size: 12px;
+
+    th{
+        font-size: 0.9em;
     }
-    .footer .footer-links {
-        font-size: 14px;
-        padding: 25px 0 20px;
-    }
-    .footer .footer-links a {
-        line-height: 1.8;
+   
+}
+
+
+
+
+
+@media only screen and (max-width: 840px) {
+table .responsive  {
+margin-bottom: 0;
+overflow: hidden;
+overflow-x: scroll;
+display: block;
+white-space: nowrap;
+}
+}
+
+@media (min-width: 309px) and (max-width: 1002px) {
+    h1 {
+        font-size: 1em;
+
     }
 }
+
+
+
+
